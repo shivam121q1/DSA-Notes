@@ -41,10 +41,10 @@ public int peek()  throws StackException{
     return data[ptr];
 }
 
-private boolean isFull(){
+public boolean isFull(){
     return ptr==data.length-1; //ptr is at last index
 }
-private boolean isEmpty(){
+public boolean isEmpty(){
     return ptr==-1; //ptr is at initial last index
 }
 

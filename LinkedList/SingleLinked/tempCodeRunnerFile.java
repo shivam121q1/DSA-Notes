@@ -1,0 +1,1 @@
+   ListNode head = null; // head of the LinkedList
